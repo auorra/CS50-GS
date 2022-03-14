@@ -124,10 +124,6 @@ form {
 
 /*----- TWO TABS -----*/
 
-.button {
-  width: 350px;
-}
-
 /* ----- MEDIA QUERIES -----*/
 
 @media screen and (max-width: 630px) {
