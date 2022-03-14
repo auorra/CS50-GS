@@ -122,6 +122,14 @@ form {
   top: 5px;
 }
 
+/*----- TWO TABS -----*/
+
+.button {
+  width: 350px;
+}
+
+/* ----- MEDIA QUERIES -----*/
+
 @media screen and (max-width: 630px) {
   .sbari {
     min-width: 630px;
