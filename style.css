@@ -124,6 +124,27 @@ form {
 
 /*----- TWO TABS -----*/
 
+.sb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.button {
+  width: 130px;
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #3c4043;
+  margin: 11px 4px;
+  padding: 0 16px;
+  text-align: center;
+  cursor: pointer;
+  height: 36px;
+}
+
 /* ----- MEDIA QUERIES -----*/
 
 @media screen and (max-width: 630px) {
