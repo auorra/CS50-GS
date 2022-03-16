@@ -157,6 +157,51 @@ form {
   margin-top: 20px;
 }
 
+/* ----- Bottom Navigation ----- */
+
+.navbar.bot {
+  background-color: #f2f2f2;
+  color: #70757a;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  line-height: 30px;
+}
+
+.navbar.bot a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.navbar.bot a:hover {
+  text-decoration: underline;
+}
+
+/* ----- canada navbar ----- */
+
+.navbar2 {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  position: fixed;
+  bottom: 43px;
+  line-height: 50px;
+  color: #70757a;
+  width: 100%;
+  font-size: 15px;
+  border-bottom: 1px solid #dadce0;
+}
+
+.navbar2 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+  cursor: default;
+  padding: 15px 30px;
+}
+
 /* ----- MEDIA QUERIES -----*/
 
 @media screen and (max-width: 630px) {
